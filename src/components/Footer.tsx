@@ -7,9 +7,8 @@ import { RxCross2 } from 'react-icons/rx';
 
 export default function Footer() {
   return (
-    <footer className="py-6">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
-        {/* Logo and Links */}
+    <footer>
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between p-8">
         <div className="flex items-center gap-2">
           <Image 
           src="/images/Bitmap.png" 
@@ -27,7 +26,6 @@ export default function Footer() {
           <Link href="#faqs" className="hover:text-white">Faqs</Link>
         </nav>
 
-        {/* Social Icons */}
         <div className="flex gap-8 md:gap-4 mt-4 md:mt-0">
           <Link href="#" className="hover:underline"><FaFacebookF /></Link>
           <Link href="#" className="hover:underline"><FaInstagram /></Link>
@@ -36,8 +34,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom Links */}
-      <div className="border-t border-gray-700 mt-6 pt-4 text-center text-sm">
+      <div className="border-t border-gray-700 text-center text-sm p-8">
         <div className="flex flex-wrap justify-center gap-6">
           <Link href="#" className="hover:underline text-gray-400 text-sm">Privacy Policy</Link>
           <Link href="#" className="hover:underline text-gray-400 text-sm">Terms of Service</Link>
